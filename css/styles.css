@@ -1,0 +1,112 @@
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: rgb(80, 48, 12);
+    font-size: 50px;
+}
+.pageBackground{
+    background-color: #ece0d1;
+}
+
+.menuItem {
+    
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    padding: 10px;
+    margin: 10px;
+    width: 75%;
+    
+}
+
+
+h1 + p {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: left;
+}
+img{
+    max-width: 100%;
+  padding: 20px;
+  text-align: center;
+
+  
+}
+article{
+    padding: 10px;
+    margin: 10px;
+}
+
+ul li{
+    padding: 5px;
+    margin: 10px; 
+    font-size: 20px;
+    color: rgb(61, 36, 7);
+    font-style: oblique;
+    list-style-type: square; 
+    
+}
+.menu{
+    padding: 10px;
+    margin: 10px; 
+    font-size: 20px;
+    color: rgb(80, 48, 12);
+    font-style: oblique; 
+}
+
+div a button{
+
+    background-color: white;
+    color: rgb(80, 48, 12);
+    border-radius: 12px;
+    border: 2px solid rgb(80, 48, 12);
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-style: oblique;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn{
+    background-color: white;
+    color: rgb(80, 48, 12);
+    border-radius: 12px;
+    border: 2px solid rgb(80, 48, 12);
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.betweenPages {
+    text-align: right;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: flex-end;   
+    gap: 20px;                   
+    padding: 20px;                 
+    font-weight: 500;            
+    font-family: sans-serif;}
+ 
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: #A3A380;
+}
+
+a:active {
+    color: #D0A09E;
+}
+
+input:focus {
+    padding: 10px;
+}
