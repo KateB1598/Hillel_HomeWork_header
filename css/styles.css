@@ -8,62 +8,43 @@ h1{
 .pageBackground{
     background-color: #ece0d1;
 }
-
 .menuItem {
-    
     border: 1px solid rgba(128, 128, 128, 0.315);
     padding: 10px;
     margin: 10px;
     width: 75%;
-    
-}
-
-
-h1 + p {
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px;
-    font-weight: 200;
-    font-style: italic;
-    text-align: left;
 }
 img{
-    max-width: 100%;
+  max-width: 100%;
   padding: 20px;
   text-align: center;
-
-  
 }
 article{
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
 }
-
 ul li{
     padding: 5px;
-    margin: 10px; 
+    margin: 20px; 
     font-size: 20px;
     color: rgb(61, 36, 7);
     font-style: oblique;
     list-style-type: square; 
-    
 }
 .menu{
-    padding: 10px;
-    margin: 10px; 
+    padding: 20px;
+    margin: 20px; 
     font-size: 20px;
     color: rgb(80, 48, 12);
     font-style: oblique; 
 }
-
 div a button{
-
     background-color: white;
     color: rgb(80, 48, 12);
     border-radius: 12px;
     border: 2px solid rgb(80, 48, 12);
     padding: 15px 32px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -83,7 +64,6 @@ div a button{
     display: inline-block;
     font-size: 14px;
 }
-
 .betweenPages {
     text-align: right;
     text-decoration-line: none;
@@ -93,20 +73,33 @@ div a button{
     padding: 20px;                 
     font-weight: 500;            
     font-family: sans-serif;}
- 
 a {
     color: black;
     text-decoration-line: none;
 }
-
 a:visited {
     color: #A3A380;
 }
-
 a:active {
     color: #D0A09E;
 }
-
 input:focus {
     padding: 10px;
+}
+p{
+    box-sizing: border-box;
+    width: 750px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: left;
+}
+.hero{
+    background-color: #ece0d1;
+}
+.container{
+   padding: 0 50px;
+    
 }

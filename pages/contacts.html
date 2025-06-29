@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html> 
 <head>
+    <link rel="stylesheet" href="../css/normalize.css" type="text/css">
     <link rel="stylesheet" href="../css/styles.css" type="text/css">
     <title>Contact us</title>
 </head>
-
 <header>
 <body class="pageBackground">  
     <div class="betweenPages">
@@ -13,56 +13,42 @@
             <a href="../pages/articles.html">The Coffee Chronicles</a><br/>
             <a href="../pages/coffee-menu.html">Coffee Menu</a><br/>
             <a href="../pages/contacts.html">Contact us</a><br/>
-            <a href="../pages/gallery.html">Moments at Bean & Bloom</a><br/>
-            
+            <a href="../pages/gallery.html">Moments at Bean & Bloom</a><br/> 
     </div>
 </header>
-
-
-
     <h1>Contact us<br/>
-        "Bean & Bloom"</h1> 
-
+        "Bean & Bloom"</h1>
+<div class="hero">
+    <div class="container"> 
     <p>Got a question, feedback, or just want to say hi? <br/>
         Drop us a message below <br/>
         We would love to hear from you any commens!</p>
-    
+    </div>
+</div>
         <form action="#" method="post">
             <fieldset>
                 <legend>Your details</legend>
-
                 <label for="name">Name</label><br/>
                 <input type="text" id="name" name="name" required><br/>  
-                
                 <label for="email">Email:</label><br/>
                 <input type="email" id="email" name="email" required><br/>
-
                 <label for="visit">Have you visited us befor?</label><br/>
                 <input type="radio" id="yes" name="visited" value="yes">
                 <label for="yes">Yes</label>
                 <input type="radio" id="no" name="visited" value="no">
                 <label for="no">No</label><br/>
-                
-
             </fieldset>
-
             <fieldset>
                 <legend>Your Message</legend>
-
                 <label for="subject">Subject</label><br/>
                 <input type="text" id="subject" name="Subject"><br/>
-
                 <label for="message">Massage</label><br/>
                 <textarea name="Massage" id="message" cols="40" rows="5"></textarea><br/>
-
-
             </fieldset>
             <fieldset>
                 <legend>Preferences</legend>
-
                 <label for="newsletter">Subscribe to newsletter?</label>
                 <input type="checkbox" id="newsletter" name="newsletter"><br/>
-
                 <label for="contactTime">Best time to contact you:</label><br/>
                 <select name="contactTime" id="contactTime">
                     <option value="morning">Morning</option>
@@ -72,7 +58,6 @@
             </fieldset>
             <button class="btn" type="submit">Send</button><br/>
             <button class="btn" type="reset">Reset</button><br/>
-
         </form>
 </body>
 </html> 
