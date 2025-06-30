@@ -13,6 +13,7 @@ h1{
     padding: 10px;
     margin: 10px;
     width: 75%;
+    position: relative;
 }
 img{
   max-width: 100%;
@@ -70,9 +71,17 @@ div a button{
     display: flex;
     justify-content: flex-end;   
     gap: 20px;                   
-    padding: 20px;                 
-    font-weight: 500;            
-    font-family: sans-serif;}
+    padding: 40px;                            
+    font-family: sans-serif;
+    flex-direction: row;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
 a {
     color: black;
     text-decoration-line: none;
@@ -100,6 +109,29 @@ p{
     background-color: #ece0d1;
 }
 .container{
-   padding: 0 50px;
-    
+   padding: 0 50px;  
+}
+.sale-flag{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #8c3c4a;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+.item-free{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #8c3c4a;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 2px;
 }
